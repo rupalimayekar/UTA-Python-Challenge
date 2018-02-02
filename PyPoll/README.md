@@ -8,11 +8,11 @@ This exercise is meant to help a small, rural town modernize its vote-counting p
 * The total number of votes each candidate won
 * The winner of the election based on popular vote.
 
-The script is be able to handle any such similarly-structured dataset. It prints the analysis to the screen and exports a text file with the results.
+The script handles any such similarly-structured dataset. It prints the analysis to the screen and exports a text file with the results.
 
 ## Input
 The script assumes the following about the input data:
-* The input file name that the user provides is in a folder called "raw_data" which is in the folder from where the script is run
+* The input file name that the user provides is in a folder called "raw_data" within the folder from where the script is run
 * The input file is a csv file that is composed of three columns: `Voter ID`, `County`, and `Candidate`. 
 
 ### Sample Input csv files

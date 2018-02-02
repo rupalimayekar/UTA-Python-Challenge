@@ -15,7 +15,7 @@ The `us_state-abbrev.py` file is a supporting python file that maps all the stat
 The scripts assumes the following about the input data:
 * The input files are in a folder called "raw_data" which is in the folder from where the script is run
 * The two input file names are `employee_data1.csv` and `employee_data2.csv`
-* The input files are csv files that is composed of three columns: `Emp ID`, `Name`, `DOB`, `SSN`, and `State`. 
+* The input files are csv files that is composed of these columns: `Emp ID`, `Name`, `DOB`, `SSN`, and `State`. 
 
 ### Sample Input csv files
 ```
