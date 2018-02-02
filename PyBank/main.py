@@ -1,11 +1,11 @@
 ################################################################################################
 # This is the main script to calculate the financial records for a given company
-# as specified by the PyBank exercise. The scripts assumes the following about the input data:
+# as specified by the PyBank exercise. The script assumes the following about the input data:
 # 1 - The data has two columns "Date", "Revenue" with the respective column headers
 # 2 - There are no gaps in the data and the data is sorted in increasing order of date
 # i.e. the months are consecutive
 # 3 - The input file is in a folder called raw_data within the folder where the script is run
-# The output file is placed in the same folder as the main.py script
+# The output file is placed in the same folder as the input files
 ################################################################################################
 
 import os
@@ -17,6 +17,7 @@ csvPath = os.path.join('raw_data', fileName)
 
 # The name of the outputfile will be the same as the name of the input file but with a .txt extension
 outputFile = fileName.split(".csv")[0] + ".txt"
+outputFilePath = os.path.join("raw_data", outputFile)
 
 # Initialize all the variables and lists
 months = [] 
@@ -81,7 +82,7 @@ with open(csvPath, newline='') as budFile:
     ##################################################
     #  Output printed to a file
     ###################################################
-    with open(outputFile, "w+") as f:
+    with open(outputFilePath, "w+") as f:
         f.write("---------------------------------------------\n")
         f.write("Financial Analysis for: " + fileName + "\n")
         f.write("---------------------------------------------\n")
