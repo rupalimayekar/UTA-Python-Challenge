@@ -111,9 +111,9 @@ Take a peek at what the data looks like. The script here assumes that the data i
 * Total Number of Players
 
 
-
+```
     Total Number of Players = 573
-
+```
 
 ## Purchasing Analysis (Total)
 * Number of Unique Items
@@ -122,7 +122,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
 * Total Revenue
 
 
-
+```
     Number of Unique Items = 183
 
     Average Purchase Price = $2.93
@@ -130,7 +130,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
     Total Number of Purchases = 780
 
     Total Revenue = $2286.33
-
+```
 
 ## Gender Demographics
 * Percentage and Count of Male Players
@@ -139,7 +139,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 
 
-
+```
     Count of Male Players = 465
     
     Percentage of Male Players = 81.15%
@@ -152,7 +152,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
     
     Percentage of Other/Non Disclosed Players = 1.40%
     
-
+```
 
 ## Purchasing Analysis (by Gender)
 Get the numbers below each broken by gender
