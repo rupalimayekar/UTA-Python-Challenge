@@ -1,6 +1,6 @@
 
 # Heroes of Pymoli
-Below is the Analysis for their most recent fantasy game, Heroes of Pymoli.
+Below is the Analysis for a company's most recent fantasy game, Heroes of Pymoli. This Analysis is done using Python's Data Analytics library - Pandas
 
 Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, we generate a report that breaks down the game's purchasing data into meaningful insights.
 
@@ -15,7 +15,7 @@ The most popular games have additional items that are lower in price. Perhaps th
 
 
 ## Reading the data file and preparing for the Analysis. 
-Take a peek at what the data looks like. Get an idea of what the data types are so that you can do the right kind of processing on it.
+Take a peek at what the data looks like. The script here assumes that the data is in the form of a .json file. The script reads this file and imports the data. It looks at how much data there is and what the data types are, for correct processing of the data.
 
 
 ```python
@@ -200,21 +200,7 @@ print("Total Revenue = ${0:.2f}".format(total_revenue))
 player_df = game_df[['SN', 'Gender', 'Age']]
 player_df = player_df.drop_duplicates()
 player_df.reset_index(drop=True, inplace=True)
-player_df['Gender'].value_counts()
-```
 
-
-
-
-    Male                     465
-    Female                   100
-    Other / Non-Disclosed      8
-    Name: Gender, dtype: int64
-
-
-
-
-```python
 # Get the numbers for each value of Gender
 num_male_players = player_df['Gender'].value_counts()['Male']
 num_female_players = player_df['Gender'].value_counts()['Female']
