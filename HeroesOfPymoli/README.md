@@ -124,8 +124,11 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 
     Number of Unique Items = 183
+
     Average Purchase Price = $2.93
+
     Total Number of Purchases = 780
+
     Total Revenue = $2286.33
 
 
@@ -138,12 +141,15 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 
     Count of Male Players = 465
+    
     Percentage of Male Players = 81.15%
     
     Count of Female Players = 100
+    
     Percentage of Female Players = 17.45%
     
     Count of Other/Non Disclosed Players = 8
+    
     Percentage of Other/Non Disclosed Players = 1.40%
     
 
@@ -210,82 +216,6 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
 * Average Purchase Price
 * Total Purchase Value
 * Normalized Totals
-
-
-
-
-
-
-
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Age</th>
-      <th>Gender</th>
-      <th>Item ID</th>
-      <th>Item Name</th>
-      <th>Price</th>
-      <th>SN</th>
-      <th>Age Group</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>38</td>
-      <td>Male</td>
-      <td>165</td>
-      <td>Bone Crushing Silver Skewer</td>
-      <td>3.37</td>
-      <td>Aelalis34</td>
-      <td>34-38</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>21</td>
-      <td>Male</td>
-      <td>119</td>
-      <td>Stormbringer, Dark Blade of Ending Misery</td>
-      <td>2.32</td>
-      <td>Eolo46</td>
-      <td>18-22</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>34</td>
-      <td>Male</td>
-      <td>174</td>
-      <td>Primitive Blade</td>
-      <td>2.46</td>
-      <td>Assastnya25</td>
-      <td>30-34</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>21</td>
-      <td>Male</td>
-      <td>92</td>
-      <td>Final Critic</td>
-      <td>1.36</td>
-      <td>Pheusrical25</td>
-      <td>18-22</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>23</td>
-      <td>Male</td>
-      <td>63</td>
-      <td>Stormfury Mace</td>
-      <td>1.27</td>
-      <td>Aela59</td>
-      <td>22-26</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
 
 
 
