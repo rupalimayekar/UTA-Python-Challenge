@@ -18,9 +18,9 @@ The most popular games have additional items that are lower in price. Perhaps th
 Take a peek at what the data looks like. The script here assumes that the data is in the form of a .json file. The script reads this file and imports the data. It looks at how much data there is and what the data types are, for correct processing of the data.
 
 
-
+```
     Enter the name of the data file to import:   purchase_data.json
-
+```
 
 
 
@@ -93,7 +93,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 
 
-
+```
     <class 'pandas.core.frame.DataFrame'>
     Int64Index: 780 entries, 0 to 779
     Data columns (total 6 columns):
@@ -105,7 +105,7 @@ Take a peek at what the data looks like. The script here assumes that the data i
     SN           780 non-null object
     dtypes: float64(1), int64(2), object(3)
     memory usage: 42.7+ KB
-
+```
 
 ## Player Count
 * Total Number of Players
@@ -124,11 +124,8 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 ```
     Number of Unique Items = 183
-
     Average Purchase Price = $2.93
-
     Total Number of Purchases = 780
-
     Total Revenue = $2286.33
 ```
 
@@ -141,15 +138,12 @@ Take a peek at what the data looks like. The script here assumes that the data i
 
 ```
     Count of Male Players = 465
-    
     Percentage of Male Players = 81.15%
     
     Count of Female Players = 100
-    
     Percentage of Female Players = 17.45%
     
     Count of Other/Non Disclosed Players = 8
-    
     Percentage of Other/Non Disclosed Players = 1.40%
     
 ```
@@ -241,7 +235,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>32</td>
       <td>$3.02</td>
       <td>$96.62</td>
-      <td>$3.02</td>
+      <td>$4.39</td>
     </tr>
     <tr>
       <th>1</th>
@@ -249,7 +243,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>31</td>
       <td>$2.70</td>
       <td>$83.79</td>
-      <td>$2.70</td>
+      <td>$4.19</td>
     </tr>
     <tr>
       <th>2</th>
@@ -257,7 +251,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>111</td>
       <td>$2.88</td>
       <td>$319.32</td>
-      <td>$2.88</td>
+      <td>$3.80</td>
     </tr>
     <tr>
       <th>3</th>
@@ -265,7 +259,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>231</td>
       <td>$2.93</td>
       <td>$676.20</td>
-      <td>$2.93</td>
+      <td>$3.80</td>
     </tr>
     <tr>
       <th>4</th>
@@ -273,7 +267,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>207</td>
       <td>$2.94</td>
       <td>$608.02</td>
-      <td>$2.94</td>
+      <td>$3.97</td>
     </tr>
     <tr>
       <th>5</th>
@@ -281,7 +275,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>63</td>
       <td>$2.98</td>
       <td>$187.99</td>
-      <td>$2.98</td>
+      <td>$4.27</td>
     </tr>
     <tr>
       <th>6</th>
@@ -289,7 +283,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>46</td>
       <td>$3.07</td>
       <td>$141.24</td>
-      <td>$3.07</td>
+      <td>$4.15</td>
     </tr>
     <tr>
       <th>7</th>
@@ -297,7 +291,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>37</td>
       <td>$2.81</td>
       <td>$104.06</td>
-      <td>$2.81</td>
+      <td>$4.16</td>
     </tr>
     <tr>
       <th>8</th>
@@ -305,7 +299,7 @@ Get the below listed numbers each broken into bins of 4 years (i.e. <10, 10-14, 
       <td>20</td>
       <td>$3.13</td>
       <td>$62.56</td>
-      <td>$3.13</td>
+      <td>$5.69</td>
     </tr>
     <tr>
       <th>9</th>
@@ -399,7 +393,6 @@ Identify the 5 most popular items by purchase count, then list (in a table):
 
 
 
-
 <div>
 <table border="1" class="dataframe">
   <thead>
@@ -466,7 +459,6 @@ Identify the 5 most profitable items by total purchase value, then list (in a ta
 * Purchase Count
 * Item Price
 * Total Purchase Value
-
 
 
 
