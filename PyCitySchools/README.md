@@ -3,6 +3,15 @@
 
 The Chief Data Scientist for a city's school district is helping the school board and mayor make strategic decisions regarding future school budgets and priorities. As a first task, she has been asked to analyze the district-wide standardized test results. She is given access to every student's math and reading scores, as well as various information on the schools they attend. Her responsibility is to aggregate the data and showcase obvious trends in school performance. Below is the Analysis done for the district.
 
+## Observed Trend 1
+The top performing schools are Charter schools and the Lowest Performing schools are District schools. Their performance is mainly lowered due to low Math scores.
+
+## Observed Trend 2
+Smaller schools have better passing rates.
+
+## Observed Trend 3
+Schools that have lower spending budgets per student have better passing rates.
+
 
 ## Input files
 
@@ -17,15 +26,13 @@ The script assumes two input files used for this analysis. They need to be .csv 
 The script asks for the user to input the school file name (or relative path) and the student file name (or relative path). It reads them and then proceeds with the analysis
 
 
-
     Enter the name of the school data file: raw_data/schools_complete.csv
     Enter the name of the student data file: raw_data/students_complete.csv
 
 
 
-
 ### School Data File
-
+Here is a sample of the school data
 
 
 
@@ -91,7 +98,6 @@ The script asks for the user to input the school file name (or relative path) an
 
 
 
-
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 15 entries, 0 to 14
     Data columns (total 5 columns):
@@ -105,7 +111,7 @@ The script asks for the user to input the school file name (or relative path) an
 
 
 ### Student Data File
-
+Here is a sample of the Student data
 
 
 
@@ -183,7 +189,6 @@ The script asks for the user to input the school file name (or relative path) an
 
 
 
-
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 39170 entries, 0 to 39169
     Data columns (total 7 columns):
@@ -215,7 +220,6 @@ High level snapshot (in table form) of the district's key metrics, including:
 
 
 
-
 <div>
 <table border="1" class="dataframe">
   <thead>
@@ -237,15 +241,16 @@ High level snapshot (in table form) of the district's key metrics, including:
       <td>15</td>
       <td>39170</td>
       <td>24649428</td>
-      <td>78.985371</td>
-      <td>81.87784</td>
-      <td>74.980853</td>
-      <td>85.805463</td>
-      <td>80.393158</td>
+      <td>78.99</td>
+      <td>81.88</td>
+      <td>74.98</td>
+      <td>85.81</td>
+      <td>80.39</td>
     </tr>
   </tbody>
 </table>
 </div>
+
 
 
 
